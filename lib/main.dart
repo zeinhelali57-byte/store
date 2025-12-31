@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:store2025/layout/auth/home_page.dart';
 import 'layout/auth/login.dart';
 void main()
 {
@@ -7,12 +8,11 @@ void main()
 
 }
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
+   MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: Login() ,
+      home:HomePage() ,
     );
   }
 }
